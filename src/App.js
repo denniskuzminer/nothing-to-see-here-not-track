@@ -19,8 +19,6 @@ import Typography from "@material-ui/core/Typography";
 import DeleteIcon from "@material-ui/icons/Delete";
 import EditIcon from "@material-ui/icons/Edit";
 import { makeStyles } from "@material-ui/core/styles";
-import logo from "./harristree.png";
-import watermark from "./harris.png";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const secAdjcolumns = [
@@ -244,83 +242,83 @@ const calculationColumns = [
 const fundRows = [
   {
     id: 1,
-    ticker: "ADP",
-    securityName: "Automatic Data Processing",
+    ticker: "XXXX",
+    securityName: "Corp and Corps Incorporated",
     CUSIP: "123456789",
-    actualPercentOfTNA: "1.40",
-    anticipatedPercentOfTNA: "1.40",
+    actualPercentOfTNA: "1",
+    anticipatedPercentOfTNA: "1",
   },
   {
     id: 2,
-    ticker: "AIG",
-    securityName: "American Intl Group",
+    ticker: "XXXX",
+    securityName: "Corp and Corps Incorporated",
     CUSIP: "123456789",
-    actualPercentOfTNA: "2.22",
-    anticipatedPercentOfTNA: "2.22",
+    actualPercentOfTNA: "1",
+    anticipatedPercentOfTNA: "1",
   },
   {
     id: 3,
-    ticker: "ALLY",
-    securityName: "Ally Financial",
+    ticker: "XXXX",
+    securityName: "Corp and Corps Incorporated",
     CUSIP: "123456789",
-    actualPercentOfTNA: "3.94",
-    anticipatedPercentOfTNA: "3.94",
+    actualPercentOfTNA: "1",
+    anticipatedPercentOfTNA: "1",
   },
   {
     id: 4,
-    ticker: "APA",
-    securityName: "APA Corp",
+    ticker: "XXXX",
+    securityName: "Corp and Corps Incorporated",
     CUSIP: "123456789",
-    actualPercentOfTNA: "1.48",
-    anticipatedPercentOfTNA: "1.48",
+    actualPercentOfTNA: "1",
+    anticipatedPercentOfTNA: "1",
   },
   {
     id: 5,
-    ticker: "AXP",
-    securityName: "American Express",
+    ticker: "XXXX",
+    securityName: "Corp and Corps Incorporated",
     CUSIP: "123456789",
-    actualPercentOfTNA: "1.92",
-    anticipatedPercentOfTNA: "1.92",
+    actualPercentOfTNA: "1",
+    anticipatedPercentOfTNA: "1",
   },
   {
     id: 6,
-    ticker: "BAC",
-    securityName: "Bank of America",
+    ticker: "XXXX",
+    securityName: "Corp and Corps Incorporated",
     CUSIP: "123456789",
-    actualPercentOfTNA: "2.96",
-    anticipatedPercentOfTNA: "2.96",
+    actualPercentOfTNA: "1",
+    anticipatedPercentOfTNA: "1",
   },
   {
     id: 7,
-    ticker: "BK",
-    securityName: "Bank of New York Mellon",
+    ticker: "XXXX",
+    securityName: "Corp and Corps Incorporated",
     CUSIP: "123456789",
-    actualPercentOfTNA: "1.49",
-    anticipatedPercentOfTNA: "1.49",
+    actualPercentOfTNA: "1",
+    anticipatedPercentOfTNA: "1",
   },
   {
     id: 8,
-    ticker: "BKNG",
-    securityName: "Booking Holdings",
+    ticker: "XXXX",
+    securityName: "Corp and Corps Incorporated",
     CUSIP: "123456789",
-    actualPercentOfTNA: "2.01",
-    anticipatedPercentOfTNA: "2.01",
+    actualPercentOfTNA: "1",
+    anticipatedPercentOfTNA: "1",
   },
   {
     id: 9,
-    ticker: "C",
-    securityName: "Citigroup",
+    ticker: "XXXX",
+    securityName: "Corp and Corps Incorporated",
     CUSIP: "123456789",
-    actualPercentOfTNA: "2.91",
-    anticipatedPercentOfTNA: "2.91",
+    actualPercentOfTNA: "1",
+    anticipatedPercentOfTNA: "1",
   },
   {
     id: 10,
-    ticker: "CBRE",
-    securityName: "CBRE Group CI A",
+    ticker: "XXXX",
+    securityName: "Corp and Corps Incorporated",
     CUSIP: "123456789",
-    actualPercentOfTNA: "1.09",
-    anticipatedPercentOfTNA: "1.09",
+    actualPercentOfTNA: "1",
+    anticipatedPercentOfTNA: "1",
   },
 ];
 
@@ -378,14 +376,12 @@ const App = (props) => {
               <tr>
                 <td>
                   <img
-                    alt="Oakmark Tree"
                     style={{
                       width: "40px",
                       paddingLeft: "640px",
                       marginRight: "20px",
                       paddingTop: "30px",
                     }}
-                    src={logo}
                   />
                 </td>
                 <td>
@@ -606,8 +602,6 @@ const App = (props) => {
         </table>
         <div>
           <img
-            alt="harrislogo"
-            src={watermark}
             style={{
               zIndex: 999,
               opacity: 0.1,
